@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+.container{
+    padding: 0 1rem;
+}
+.btndel{
+    padding: 5px 10px;
+    float: right;
+    border: none;
+    background: #ff0000;
+    border-radius: 50%;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.btn {
+    display: block;
+    border: none;
+    background: #555;
+    color: #fff;
+    padding: 7px 20px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: #666;
+}
+.link{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.link:hover {
+    color: #ff0000;
+}
+
+
+.loader {
+    width: 200px;
+    height: 200px;
+}
+
+span {
+    font-size: 20px;
+    font-weight: bold;
+}
